@@ -252,7 +252,7 @@ function MapExplorer({
       }
     } else if (isCountryLoaded && currentMapMeta.mapType === MAP_TYPES.STATE) {
       setCurrentMap({
-        name: 'Bharat',
+        name: 'India',
         view:
           currentMap.stat === MAP_STATISTICS.ZONE
             ? MAP_VIEWS.DISTRICTS
@@ -300,7 +300,7 @@ function MapExplorer({
       } else {
         ReactDOM.unstable_batchedUpdates(() => {
           setCurrentMap({
-            name: 'Bharat',
+            name: 'India',
             view:
               currentMap.stat === MAP_STATISTICS.ZONE
                 ? MAP_VIEWS.DISTRICTS
