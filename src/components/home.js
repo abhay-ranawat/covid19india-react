@@ -205,7 +205,7 @@ function Home(props) {
           <React.Fragment>
             {fetched && (
               <MapExplorer
-                mapName={'Bharat'}
+                mapName={'India'}
                 states={states}
                 districts={stateDistrictWiseData}
                 zones={districtZones}
