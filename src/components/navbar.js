@@ -55,7 +55,7 @@ function Navbar({pages, darkMode, setDarkMode}) {
             setExpand(false);
           }}
         >
-          Covid19<span>India</span>
+          Covid19<span>Bharat</span>
         </Link>
       </div>
 

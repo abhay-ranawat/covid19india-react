@@ -15,12 +15,12 @@ function Footer(props) {
           target="_blank"
           rel="noopener noreferrer"
         >
-          covid19india
+          covid19bharat
         </a>
       </div>
 
       <a
-        href="https://github.com/covid19india/covid19india-react"
+        href="https://github.com/covid19/covid19india-react"
         className="button github"
         target="_blank"
         rel="noopener noreferrer"

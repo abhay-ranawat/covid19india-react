@@ -252,7 +252,7 @@ function MapExplorer({
       }
     } else if (isCountryLoaded && currentMapMeta.mapType === MAP_TYPES.STATE) {
       setCurrentMap({
-        name: 'India',
+        name: 'Bharat',
         view:
           currentMap.stat === MAP_STATISTICS.ZONE
             ? MAP_VIEWS.DISTRICTS
@@ -300,7 +300,7 @@ function MapExplorer({
       } else {
         ReactDOM.unstable_batchedUpdates(() => {
           setCurrentMap({
-            name: 'India',
+            name: 'Bharat',
             view:
               currentMap.stat === MAP_STATISTICS.ZONE
                 ? MAP_VIEWS.DISTRICTS
@@ -521,7 +521,7 @@ function MapExplorer({
         {currentMapMeta.mapType === MAP_TYPES.STATE ? (
           <div
             className="button back-button"
-            onClick={() => switchMapToState('India')}
+            onClick={() => switchMapToState('Bharat')}
           >
             {t('Back')}
           </div>

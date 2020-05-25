@@ -156,10 +156,10 @@ function Home(props) {
     <React.Fragment>
       <div className="Home">
         <Helmet>
-          <title>Coronavirus Outbreak in India - covid19india.org</title>
+          <title>Coronavirus Outbreak in Bharat - covid19india.org</title>
           <meta
             name="title"
-            content="Coronavirus Outbreak in India: Latest Map and Case Count"
+            content="Coronavirus Outbreak in Bharat: Latest Map and Case Count"
           />
         </Helmet>
 
@@ -205,7 +205,7 @@ function Home(props) {
           <React.Fragment>
             {fetched && (
               <MapExplorer
-                mapName={'India'}
+                mapName={'Bharat'}
                 states={states}
                 districts={stateDistrictWiseData}
                 zones={districtZones}

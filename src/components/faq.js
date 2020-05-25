@@ -30,7 +30,7 @@ function FAQ(props) {
         <title>FAQ - covid19india.org</title>
         <meta
           name="title"
-          content="Coronavirus Outbreak in India: Latest Map and Case Count"
+          content="Coronavirus Outbreak in Bharat: Latest Map and Case Count"
         />
       </Helmet>
       {faq.map((faq, index) => {
