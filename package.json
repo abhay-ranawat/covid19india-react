@@ -1,7 +1,6 @@
 {
   "name": "covid19bharat",
   "version": "1.0.0",
-  "private": false,
   "homepage": "http://bharatcvd.netlify.app/",
   "dependencies": {
     "@juggle/resize-observer": "^3.1.3",
