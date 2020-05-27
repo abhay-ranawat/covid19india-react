@@ -1,5 +1,5 @@
 {
-  "name": "covid19bharat",
+  "name": "@abhay-ranawat/covid19bharat",
   "version": "1.0.0",
   "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "dependencies": {
